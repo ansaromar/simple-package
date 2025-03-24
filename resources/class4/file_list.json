@@ -1,0 +1,51 @@
+[
+  {
+    "filename": "Application Case Studies.pdf",
+    "title": "Application Case Studies",
+    "description": "Real-world CI applications in various industries",
+    "meta": "PDF, 4.1MB",
+    "path": "resources/class4/Application Case Studies.pdf"
+  },
+  {
+    "filename": "Bondarenko presentation for class 4.pdf",
+    "title": "Bondarenko Presentation",
+    "description": "CI application methodologies",
+    "meta": "PDF, 415KB",
+    "path": "resources/class4/Bondarenko presentation for class 4.pdf"
+  },
+  {
+    "filename": "Calof class 4 and 5 PowerPoints.pdf",
+    "title": "Calof Class 4 and 5 PowerPoints",
+    "description": "CI project planning and analysis",
+    "meta": "PDF, 1.7MB",
+    "path": "resources/class4/Calof class 4 and 5 PowerPoints.pdf"
+  },
+  {
+    "filename": "CI Planning Guide.pdf",
+    "title": "CI Planning Guide",
+    "description": "Comprehensive guide to CI project planning",
+    "meta": "PDF, 2.3MB",
+    "path": "resources/class4/CI Planning Guide.pdf"
+  },
+  {
+    "filename": "Class 4 Materials.pdf",
+    "title": "Class 4 Materials",
+    "description": "Complete materials for Class 4",
+    "meta": "PDF, 3.2MB",
+    "path": "resources/class4/Class 4 Materials.pdf"
+  },
+  {
+    "filename": "du toit_key intelligence needs.pdf",
+    "title": "Du Toit: Key Intelligence Needs",
+    "description": "Framework for intelligence requirements",
+    "meta": "PDF, 957KB",
+    "path": "resources/class4/du toit_key intelligence needs.pdf"
+  },
+  {
+    "filename": "Herring KITS revisited and their problems.pdf",
+    "title": "Herring KITS Revisited",
+    "description": "Key Intelligence Topics and their problems",
+    "meta": "PDF, 408KB",
+    "path": "resources/class4/Herring KITS revisited and their problems.pdf"
+  }
+]

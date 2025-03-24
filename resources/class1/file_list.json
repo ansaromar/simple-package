@@ -1,0 +1,51 @@
+[
+  {
+    "filename": "Class 1 PowerPoints.pdf",
+    "title": "Class 1 PowerPoints",
+    "description": "Introduction to CI basics and fundamentals",
+    "meta": "PDF, 1.4MB",
+    "path": "resources/class1/Class 1 PowerPoints.pdf"
+  },
+  {
+    "filename": "Seena Sharp 10 myths that cripple competitive intelligence.pdf",
+    "title": "Seena Sharp: 10 Myths of CI",
+    "description": "Overview of common misconceptions about CI",
+    "meta": "PDF, 87KB",
+    "path": "resources/class1/Seena Sharp 10 myths that cripple competitive intelligence.pdf"
+  },
+  {
+    "filename": "Maduerira CI unified definition.pdf",
+    "title": "Maduerira CI Unified Definition",
+    "description": "Comprehensive framework for understanding CI",
+    "meta": "PDF, 3.5MB",
+    "path": "resources/class1/Maduerira CI unified definition.pdf"
+  },
+  {
+    "filename": "Important functions of competitive intelligence.pdf",
+    "title": "Important Functions of CI",
+    "description": "Key functions and applications of CI",
+    "meta": "PDF, 157KB",
+    "path": "resources/class1/Important functions of competitive intelligence.pdf"
+  },
+  {
+    "filename": "DuToit_Competitive_2015 from program.pdf",
+    "title": "Du Toit: Competitive Intelligence",
+    "description": "Academic perspective on CI theory and practice",
+    "meta": "PDF, 272KB",
+    "path": "resources/class1/DuToit_Competitive_2015 from program.pdf"
+  },
+  {
+    "filename": "CIQ_questionnaire_calof.pdf",
+    "title": "CI Questionnaire",
+    "description": "Assessment tool for CI practices",
+    "meta": "PDF, 261KB",
+    "path": "resources/class1/CIQ_questionnaire_calof.pdf"
+  },
+  {
+    "filename": "Calof past projects.pdf",
+    "title": "Calof Past Projects",
+    "description": "Examples of previous CI projects",
+    "meta": "PDF, 142KB",
+    "path": "resources/class1/Calof past projects.pdf"
+  }
+]
