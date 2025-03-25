@@ -393,6 +393,13 @@ document.addEventListener('DOMContentLoaded', function() {
                         fileIcon = 'fa-file-powerpoint';
                     }
                     
+                    // Create the download link with proper path
+                    const downloadLink = document.createElement('a');
+                    downloadLink.href = `${file.path}`;
+                    downloadLink.className = 'download-btn';
+                    downloadLink.target = '_blank'; // Open in new tab
+                    downloadLink.rel = 'noopener noreferrer'; // Security best practice
+                    
                     card.innerHTML = `
                         <div class="resource-icon">
                             <i class="fas ${fileIcon}"></i>
@@ -400,8 +407,12 @@ document.addEventListener('DOMContentLoaded', function() {
                         <h4>${file.title}</h4>
                         <p>${file.description}</p>
                         <p class="file-meta">${file.meta}</p>
-                        <a href="${file.path}" class="download-btn">Download</a>
                     `;
+                    
+                    // Add the download link to the card
+                    card.appendChild(downloadLink);
+                    downloadLink.textContent = 'Download';
+                    
                     gridDiv.appendChild(card);
                 });
                 
@@ -431,14 +442,14 @@ document.addEventListener('DOMContentLoaded', function() {
                         
                         let linksHTML = '';
                         files.forEach(file => {
-                            linksHTML += `<p><a href="${file.path}" download>${file.filename}</a></p>`;
+                            linksHTML += `<p><a href="resources/class${classNumber}/${file.path}" target="_blank" rel="noopener noreferrer">${file.title}</a></p>`;
                         });
                         
                         modal.innerHTML = `
                             <div class="modal-content">
                                 <span class="close">&times;</span>
                                 <h2>Class ${classNumber} Resources</h2>
-                                <p>Click on each link to download:</p>
+                                <p>Click on each link to open the file in a new tab:</p>
                                 ${linksHTML}
                             </div>
                         `;
@@ -669,9 +680,14 @@ document.addEventListener('DOMContentLoaded', function() {
         firstClass.classList.add('active');
     }
     
-    // Initialize first resource class as not collapsed
+    // Initialize first resource class as not collapsed and load its content
     const firstResourceClass = document.querySelector('.resource-class');
     if (firstResourceClass) {
         firstResourceClass.classList.remove('collapsed');
+        const gridDiv = firstResourceClass.querySelector('.resource-grid');
+        if (gridDiv) {
+            const classNumber = firstResourceClass.querySelector('h3').textContent.match(/Class (\d+)/)[1];
+            loadResourceContent(classNumber, gridDiv);
+        }
     }
 });
